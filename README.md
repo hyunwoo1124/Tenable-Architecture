@@ -15,6 +15,8 @@ Instances in any of the cloud can be reported to the security center for vulnera
 
 # Definitions
 Tenable.io Nessus Agent - Agent based vulnerability management that scans endpoints as credential scan. Great for web apps and endpoints
+
 Nessus Scanner - Scanner that's deployed onto on-prem and or cloud server that scans different subnets. It can report it to the main Tenable.sc (Security Center).
+
 Tenable Core + Tenable.sc - Tenable Core is a RHEL based OS system specifically for Tenable. It provides network statistics, CPU usage, and more that also host Tenable.sc (Security Center). Tenable.sc is a main single-pane of glass dashboard that provide great telemetry and vulnerability management tools for remote offices and cloud enviornment.
 

@@ -12,3 +12,9 @@ Each office has multiple VLANs for different departments such as HR, Marketing, 
 
 # AWS, AWS Gov, and Azure
 Instances in any of the cloud can be reported to the security center for vulnerability management. Commercial clouds has Tenable integration that can be seamlessly connected to the security center. Government cloud is a manual process. Some applications are recommended to only download nessus agents only.
+
+# Definitions
+Tenable.io Nessus Agent - Agent based vulnerability management that scans endpoints as credential scan. Great for web apps and endpoints
+Nessus Scanner - Scanner that's deployed onto on-prem and or cloud server that scans different subnets. It can report it to the main Tenable.sc (Security Center).
+Tenable Core + Tenable.sc - Tenable Core is a RHEL based OS system specifically for Tenable. It provides network statistics, CPU usage, and more that also host Tenable.sc (Security Center). Tenable.sc is a main single-pane of glass dashboard that provide great telemetry and vulnerability management tools for remote offices and cloud enviornment.
+

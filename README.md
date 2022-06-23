@@ -1,4 +1,4 @@
-# Tenable-Architecture
+# Tenable Architecture Diagram
 Tenable Architecture for Vulnerability management
 
 
@@ -9,3 +9,6 @@ Tenable is a great vulnerability management solution. Tenable provides visibilit
 
 # 3 Offices and Tenable.io
 Each office has multiple VLANs for different departments such as HR, Marketing, Engineering, IT and more. Nessus scanner for Office x can scan endpoints for malware/compliance/vulnerability and report it to Nessus Scanner. Nessus Scanner then reports to the Security Center. Tenable.io nessus agent scans endpoints with credential by default which provides greater visibility of the endpoints. The scans then report it to the security center.
+
+# AWS, AWS Gov, and Azure
+Instances in any of the cloud can be reported to the security center for vulnerability management. Commercial clouds has Tenable integration that can be seamlessly connected to the security center. Government cloud is a manual process. Some applications are recommended to only download nessus agents only.
